@@ -17,9 +17,9 @@ void WaitHalfFrame()
 	start = clock();
 }
 
-bool InitOnline(string gameName)
+bool InitOnline()
 {
-	if (!GetProcessSettings(gameName, "mednafen.exe"))
+	if (!GetProcessSettings())
 		return false;
 	return true;
 }

@@ -3,6 +3,6 @@
 using std::string;
 
 void WaitHalfFrame();
-bool InitOnline(string gameName);
+bool InitOnline();
 bool InitDuel();
 void Play(char player);
